@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navsaid {
+  border-radius: 8px;
+  margin-top: 7px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgba(47, 46, 46, 0.495);
+}
+
+.try {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.reg {
+  position: absolute;
+  right: 160px;
+  border: 2px solid rgb(9, 7, 7);
+  opacity: 70%;
+  padding: 10px 24px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.log {
+  position: absolute;
+  right: 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  border: 2px solid white;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.suchfeld {
+  border-radius: 40px;
+  border: 2px black solid;
+  padding-left: 43px;
+  text-align: start;
+  color: white;
+  background-color: rgba(47, 46, 46, 0.66);
+  width: 360px;
+  height: 50px;
+}
+
+.lupe {
+  position: absolute;
+  z-index: 10;
+}
+
+.height {
+  height: 100vh;
+  width: 100vw;
+}
+
+.fs-small {
+  font-size: smaller;
+}
+
+.w-20 {
+  width: 22vw;
+}
+
+.w-80 {
+  width: 78vw;
+}
+
+.box {
+  background-color: rgba(47, 46, 46, 0.495);
+}
+
+.h-99 {
+  height: 21.3vh;
+}
+
+#ergebnisse {
+  flex-wrap: wrap;
+  padding-bottom: 350px;
+}
+
+.fixlength {
+  width: 250px;
+  height: 420px;
+}
+
+.fontsize {
+  font-size: 1.2rem;
+  padding: 9px;
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.img-small {
+  width: 99%;
+}
+
+.btn {
+  width: 60px;
+  height: 40px;
+  color: white;
+  background-color: rgba(4, 4, 5, 0.813);
+  margin-left: 5px;
+}
+
+.suchfeld:focus {
+  outline: 3px solid white;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: black;
+}
+
+.box-shadow:hover {
+  box-shadow: rgba(40, 43, 47, 0.605) 0px 20px 30px -10px;
+  background-color: rgba(8, 8, 8, 0.315);
+  transition: 0.5s;
+}
+
+.img-round {
+  border-radius: 20px;
+}
+
+#scrollen {
+  position: relative;
+}
+
+.scrollen {
+  overflow-y: auto;
+  height: 90vh;
+}
+
+.fav-btn {
+  background-color: red;
+}
+
+.scrollen::-webkit-scrollbar {
+  width: 0.1em; /* Breite der Scrollbar */
+}
+
+.scrollen::-webkit-scrollbar-thumb {
+  background-color: none; /* Farbe des Scrollbar-Thumb */
+  outline: none; /* Umriss des Scrollbar-Thumb */
+}
+
+.scrollen::-webkit-scrollbar-track {
+  background-color: none; /* Hintergrundfarbe des Scrollbar-Tracks */
+}
+
+footer {
+  width: 100vw;
+  height: 90px;
+  background-color: rgb(0, 0, 0);
+  align-items: end;
+  position: absolute;
+  bottom: 0;
+}
+
+.player {
+  width: 40px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.player-btn {
+  border: none;
+  margin: 30px;
+}
+
+.player-btn:hover {
+  transform: scale(1.2);
+}
+
+.fs-6 {
+  font-size: 6px;
+}
+
+a:hover {
+  opacity: 100% !important;
+  transform: scale(0.99);
+}
+
+.media-img {
+  width: 100px;
+  height: 80px;
+  background-color: black;
+  border: none;
+  background-image: url();
+}
+
+.media-all {
+  width: 150px;
+  height: 100px;
+}
+
+@media screen and (max-width: 925px) {
+  .none {
+    display: none;
+  }
+}
+.mh {
+  height: 1108px;
+}
+
+.mx {
+  height: 1026px;
+}
+
+@media screen and (max-width: 650px) {
+  .noney {
+    display: none;
+  }
+  .fa-solid {
+    font-size: 25px;
+  }
+  .fa-brands {
+    font-size: 25px;
+  }
+  .mx {
+    height: 1017px;
+  }
+  .mh {
+    padding-right: 6px;
+  }
+}
+.lieb {
+  color: white;
+  font-size: 16px;
+}
+
+audio {
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 500px;
+}
+
+.xbtn {
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.only {
+  display: none;
+}
+
+.cursor-none {
+  cursor: wait;
+}
+
+.cursor-none:focus {
+  background-color: hotpink;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgb(159, 155, 155);
+  border: solid rgb(250, 248, 248) 3px;
+}
+
+.favBtn {
+  background-color: green;
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=searchpage.css.map */
